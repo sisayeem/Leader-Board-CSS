@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville:ital@0;1&family=Poppins:wght@500&display=swap');
+
+/* common style or utilities*/
+body{
+    font-family: 'Anton', sans-serif;
+    background-color:#F3F1FF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    position: absolute;
+width: 870px;
+height: 679px;
+left: 285px;
+top: 130px;
+
+background: #FFFFFF;
+border-radius: 5px;
+}
+
+/* players slyle */
+.section-tittle{
+        color:#562EFF;      
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.player p{
+    font-size: 24px;
+}
