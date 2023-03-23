@@ -7,14 +7,13 @@ body{
 }
 main{
     display: flex;
-    flex-direction: column;
+    
+    justify-content: center;
 }
 .container{
-    position: absolute;
+
+padding: 30px ;
 width: 870px;
-height: 679px;
-left: 285px;
-top: 130px;
 
 background: #FFFFFF;
 border-radius: 5px;
@@ -27,7 +26,8 @@ border-radius: 5px;
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+    
+    
 }
 .player img{
     width: 56px;
@@ -35,7 +35,7 @@ border-radius: 5px;
 }
 .player{
     display: flex;
-    gap: 10px;
+    gap: 16px;
     align-items: center;
     
 }
